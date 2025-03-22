@@ -38,3 +38,30 @@ Its A man here hows going
 ### Mearging of the branches
 1. finding the diff between branches -> git diff branch_name_with_which_we_have_to_compare_currnt_branch
 2. 
+=======
+***Renaming a git repo***
+1. Change name locally
+2. Rename the repo with the same name in github
+3. git remote set-url origin https://github.com/AmanKashyap0807/NEW-REPO-NAME.git
+4. git remote -v
+5. git push origin main
+
+### Branch related codes
+- check branch -> git branch
+- rename branch -> git branch -M new_name
+- navigate between branches -> git checkout branch_name
+- new branch creation -> git checkout -b new_branch_name
+- delete branch -> git branch delete branch_name
+
+***Story***
+1. git checkout -b name -> it will create new branch locallly
+2. changes will be made on that new branch 
+3. new branch will be first linked to the main branch by setting upstream
+- git push --set-upstream origin branch_name
+4. push can not be happened from that branch 
+5. 
+
+### Mearging of the branches
+1. finding the diff between branches -> git diff branch_name_with_which_we_have_to_compare_currnt_branch
+2. before Mearging the side brancher owner will create a pull request, it will be done from the github
+3. 
