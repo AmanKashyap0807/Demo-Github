@@ -47,4 +47,12 @@ Its A man here hows going
 - rename branch -> git branch -M new_name
 - navigate between branches -> git checkout branch_name
 - new branch creation -> git checkout -b new_branch_name
-- 
+- delete branch -> git branch delete branch_name
+
+***Story***
+1. git checkout -b name -> it will create new branch locallly
+2. changes will be made on that new branch 
+3. new branch will be first linked to the main branch by setting upstream
+- git push --set-upstream origin branch_name
+4. push can not be happened from that branch 
+5. 
