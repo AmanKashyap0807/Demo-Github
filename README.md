@@ -64,4 +64,5 @@ Its A man here hows going
 ### Mearging of the branches
 1. finding the diff between branches -> git diff branch_name_with_which_we_have_to_compare_currnt_branch
 2. before Mearging the side brancher owner will create a pull request, it will be done from the github
-3. 
+3. there might be chances of conflict if the same file is edited on the main or another branch also
+4. 
