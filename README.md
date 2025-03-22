@@ -64,3 +64,18 @@ Its A man here hows going
 3. there might be chances of conflict if the same file is edited on the main or another branch also
 4. 4. pull request will be accepted by the owner of the main branch
 5. then the 2 and 4 step will be done on online so now we need to get the changes in local for that we use -> git pull origin
+
+***sometimes some unnecessary changes are also added***
+- for resetting all files and unselecting added -> git reset
+- for a perticular file -> git reset file_namef
+
+***what to redo commit***
+- git reset HEAD~1
+- head is a pointer pointing to differnt commit ~1 shows the last commit
+
+***but what if we want a commit which is not last***
+- git log -> to get the commit history
+- above will shows different commit and their commit id
+- copy any id and -> git reset commit_id to get that place
+- above will get the project at that commit level and agter that everything will be in unstages/not_added stage
+- for removing the further thing after the reset commit -> git reset --hard id
