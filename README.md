@@ -34,3 +34,17 @@ Its A man here hows going
 6. to check the branch -> git branch
 7. rename the brank -> git branch -M new_name
 8. git push origin main
+
+***Renaming a git repo***
+1. Change name locally
+2. Rename the repo with the same name in github
+3. git remote set-url origin https://github.com/AmanKashyap0807/NEW-REPO-NAME.git
+4. git remote -v
+5. git push origin main
+
+### Branch related codes
+- check branch -> git branch
+- rename branch -> git branch -M new_name
+- navigate between branches -> git checkout branch_name
+- new branch creation -> git checkout -b new_branch_name
+- 
