@@ -35,6 +35,13 @@ Its A man here hows going
 7. rename the brank -> git branch -M new_name
 8. git push origin main
 
+<<<<<<< HEAD
+### Mearging of the branches
+1. finding the diff between branches -> git diff branch_name_with_which_we_have_to_compare_currnt_branch
+2. 
+=======
+=======
+>>>>>>> 7e494bc0045ec9132521411c7273dec4edc8b536
 ***Renaming a git repo***
 1. Change name locally
 2. Rename the repo with the same name in github
@@ -56,3 +63,9 @@ Its A man here hows going
 - git push --set-upstream origin branch_name
 4. push can not be happened from that branch 
 5. 
+
+### Mearging of the branches
+1. finding the diff between branches -> git diff branch_name_with_which_we_have_to_compare_currnt_branch
+2. before Mearging the side brancher owner will create a pull request, it will be done from the github
+3. there might be chances of conflict if the same file is edited on the main or another branch also
+4. 
