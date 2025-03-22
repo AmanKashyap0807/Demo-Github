@@ -62,7 +62,6 @@ Its A man here hows going
 3. new branch will be first linked to the main branch by setting upstream
 - git push --set-upstream origin branch_name
 4. push can not be happened from that branch 
-<<<<<<< HEAD
 5. 
 
 ### Mearging of the branches
@@ -70,6 +69,3 @@ Its A man here hows going
 2. before Mearging the side brancher owner will create a pull request, it will be done from the github
 3. there might be chances of conflict if the same file is edited on the main or another branch also
 4. 
-=======
-5. 
->>>>>>> 7e494bc0045ec9132521411c7273dec4edc8b536
